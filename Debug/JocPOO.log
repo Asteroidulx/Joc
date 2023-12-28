@@ -1,0 +1,76 @@
+﻿  AssetManager.cpp
+  Collision.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(51,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(52,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(17,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(18,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(30,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(31,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(45,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(46,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  EntityComponentSystem.cpp
+  Game.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(51,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(52,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(45,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(46,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(17,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(18,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(30,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(31,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\Game.cpp(114,63): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\Game.cpp(115,63): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\EntityComponentSystem.h(75,28): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\Game.cpp(58): message : see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,int,int>(int &&,int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  main.cpp
+  Map.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(51,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(52,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(45,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(46,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(17,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(18,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(30,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\TileComponent.h(31,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  TextureManager.cpp
+  Vector2D.cpp
+  Generating Code...
+AssetManager.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function "public: void __thiscall AssetManager::AddFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?AddFont@AssetManager@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H@Z)
+Game.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: void __thiscall UILabel::SetLabelText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetLabelText@UILabel@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureManager.obj : error LNK2001: unresolved external symbol _SDL_FreeSurface
+Game.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: __thiscall Game::Game(char const *,unsigned int,unsigned int,unsigned int,unsigned int,bool)" (??0Game@@QAE@PBDIIII_N@Z)
+Game.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: __thiscall Game::~Game(void)" (??1Game@@QAE@XZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: void __thiscall Game::handleEvents(void)" (?handleEvents@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: __thiscall Game::Game(char const *,unsigned int,unsigned int,unsigned int,unsigned int,bool)" (??0Game@@QAE@PBDIIII_N@Z)
+Game.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: void __thiscall UILabel::SetLabelText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetLabelText@UILabel@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureManager.obj : error LNK2001: unresolved external symbol _SDL_CreateTextureFromSurface
+Game.obj : error LNK2019: unresolved external symbol _SDL_QueryTexture referenced in function "public: void __thiscall UILabel::SetLabelText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetLabelText@UILabel@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Game.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "public: __thiscall Game::Game(char const *,unsigned int,unsigned int,unsigned int,unsigned int,bool)" (??0Game@@QAE@PBDIIII_N@Z)
+Game.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: virtual void __thiscall UILabel::draw(void)" (?draw@UILabel@@UAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "public: __thiscall Game::~Game(void)" (??1Game@@QAE@XZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function "public: virtual void __thiscall SpriteComponent::update(void)" (?update@SpriteComponent@@UAEXXZ)
+main.obj : error LNK2001: unresolved external symbol _SDL_GetTicks
+Game.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: __thiscall Game::Game(char const *,unsigned int,unsigned int,unsigned int,unsigned int,bool)" (??0Game@@QAE@PBDIIII_N@Z)
+Game.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: __thiscall Game::~Game(void)" (??1Game@@QAE@XZ)
+Game.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function "public: __thiscall Game::Game(char const *,unsigned int,unsigned int,unsigned int,unsigned int,bool)" (??0Game@@QAE@PBDIIII_N@Z)
+Game.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Blended referenced in function "public: void __thiscall UILabel::SetLabelText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetLabelText@UILabel@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function _SDL_main
+Map.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "public: virtual __thiscall TileComponent::~TileComponent(void)" (??1TileComponent@@UAE@XZ)
+TextureManager.obj : error LNK2019: unresolved external symbol _SDL_RenderCopyEx referenced in function "public: static void __cdecl TextureManager::Draw(struct SDL_Texture *,struct SDL_Rect,struct SDL_Rect,enum SDL_RendererFlip)" (?Draw@TextureManager@@SAXPAUSDL_Texture@@USDL_Rect@@1W4SDL_RendererFlip@@@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPAUSDL_Texture@@PBD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+SDL2_ttf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\Debug\JocPOO.exe : fatal error LNK1120: 23 unresolved externals

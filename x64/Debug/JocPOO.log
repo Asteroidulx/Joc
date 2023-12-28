@@ -1,0 +1,6 @@
+﻿  Game.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(65,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(66,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(45,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(46,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  JocPOO.vcxproj -> C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\x64\Debug\JocPOO.exe

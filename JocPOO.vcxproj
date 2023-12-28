@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JocPOO\AssetManager.cpp" />
+    <ClCompile Include="JocPOO\Collision.cpp" />
+    <ClCompile Include="JocPOO\ECS\EntityComponentSystem.cpp" />
+    <ClCompile Include="JocPOO\Game.cpp" />
+    <ClCompile Include="JocPOO\main.cpp" />
+    <ClCompile Include="JocPOO\Map.cpp" />
+    <ClCompile Include="JocPOO\TextureManager.cpp" />
+    <ClCompile Include="JocPOO\Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JocPOO\AssetManager.h" />
+    <ClInclude Include="JocPOO\Collision.h" />
+    <ClInclude Include="JocPOO\ECS\ColliderComponent.h" />
+    <ClInclude Include="JocPOO\ECS\Components.h" />
+    <ClInclude Include="JocPOO\ECS\EntityComponentSystem.h" />
+    <ClInclude Include="JocPOO\ECS\KeyboardController.h" />
+    <ClInclude Include="JocPOO\ECS\RockComponent.h" />
+    <ClInclude Include="JocPOO\ECS\TileComponent.h" />
+    <ClInclude Include="JocPOO\ECS\TransformComponent.h" />
+    <ClInclude Include="JocPOO\ECS\SpriteComponent.h" />
+    <ClInclude Include="JocPOO\ECS\UILabel.h" />
+    <ClInclude Include="JocPOO\Game.h" />
+    <ClInclude Include="JocPOO\Map.h" />
+    <ClInclude Include="JocPOO\TextureManager.h" />
+    <ClInclude Include="JocPOO\Vector2D.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{32f901f1-a99d-4f08-9d57-cc0057fe12c7}</ProjectGuid>
+    <RootNamespace>JocPOO</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);;$(IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.11\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\lib\x64;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(LibraryPath);$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);;$(ExternalIncludePath);$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.15\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.15\lib\x64;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.11\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\SDL-main\include;%(AdditionalIncludeDirectories);%(AdditionalIncludeDirectories);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.11\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\lib;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\lib\x64;;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.20.2\lib\x64;%(AdditionalLibraryDirectories);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.15\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\include;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2_ttf.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_ttf-2.0.15\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2_image-2.0.1\lib\x64;C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\Dev\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
