@@ -41,6 +41,7 @@
     <ClInclude Include="JocPOO\ECS\SpriteComponent.h" />
     <ClInclude Include="JocPOO\ECS\UILabel.h" />
     <ClInclude Include="JocPOO\Game.h" />
+    <ClInclude Include="JocPOO\ItemMap.h" />
     <ClInclude Include="JocPOO\Map.h" />
     <ClInclude Include="JocPOO\TextureManager.h" />
     <ClInclude Include="JocPOO\Vector2D.h" />

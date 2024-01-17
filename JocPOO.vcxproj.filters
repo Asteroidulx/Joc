@@ -86,5 +86,8 @@
     <ClInclude Include="JocPOO\ECS\RockComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="JocPOO\ItemMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

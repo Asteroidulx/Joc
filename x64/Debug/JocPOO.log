@@ -1,6 +1,25 @@
-﻿  Game.cpp
-C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(65,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(66,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(45,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(46,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+﻿  AssetManager.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(75,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(76,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(52,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(53,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\AssetManager.cpp(104,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Collision.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(75,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(76,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(52,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(53,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(75,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(76,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(52,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(53,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Map.cpp
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(75,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\SpriteComponent.h(76,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(52,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\JocPOO\ECS\ColliderComponent.h(53,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  TextureManager.cpp
+  main.cpp
+  Generating Code...
   JocPOO.vcxproj -> C:\Matei\Facultate\Anul II, Semestrul I\E POO\POO Game\JocPOO\x64\Debug\JocPOO.exe
